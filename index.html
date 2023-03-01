@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./images/logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Tandil</title>
+    <link rel="stylesheet" href="css\index.css">
+    <script src="./js/index.js"></script>
+  </head>
+  
+  <body>
+
+    <div class="grid-container">
+    
+      <header class= "header">
+        <h1> Bienvenidos a Running Tandil</h1>
+        <button  class="btn-menu">Menu</button>
+        <nav class="navbar">
+          <ul class="nav-group">
+            <li> <button class="nav-button"> <a  href="index.html" > Inicio </a> </button></li>
+            <li> <button class="nav-button"> <a  href="inscripcion.html" > Inscripcion </a> </button></li>
+            <li> <button class="nav-button"> <a  href="terminos_y_condiciones.html" > terminos y condiciones </a> </button></li>
+            <li> <button class="nav-button"> <a  href="login.html" > login </a> </button></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+    
+
+        <article class= "contenido_index">
+
+          <img src="./images/running.jpg" alt="corriendo" class="imgRunning">
+
+            <div class="div_intro_y_tabla">
+              <div class="div_parrafo_indx">
+                <p> Para participar en esta carrera deberan inscribirse previamente en este sitio web y completar la declaracion jurada.El Running Team de la Ciudad, será totalmente abierto y gratuito para todos los niveles desde caminantes hasta corredores experimentados. El objetivo es educar, entrenar y proporcionar a los vecinos las herramientas necesarias para poder desarrollar la actividad del running dentro de un marco de bienestar y control. </p>
+              </div>
+              <div class="div_tabla">
+                <table>
+                  <thead class="estilotabla">
+                    <tr>
+                      <th class="tablehead">Distancia(km)</th>
+                      <th class="tablehead">Tiempo estimado</th>
+                      <th class="tablehead">Record</th>
+                      <th class="tablehead">Premios</th>
+                    </tr>
+                  </thead>
+                <tbody id="tabla_dinamica">
+
+                </tbody>
+                  
+                </table>
+              </div>
+              <div>
+                  <form  class="formTabla">
+                    <label for="">Distancia(Km) </label>
+                    <input type="text"  class="inputTabla" id="input_Distancia"> 
+                    <label for="">Tiempo estimado</label>
+                    <input type="text" class="inputTabla" id="input_Tiempo">
+                    <label for=""> Record</label>
+                    <input type="text" class="inputTabla" id="input_Record">
+                    <label for=""> Premios</label>
+                    <input type="text" class="inputTabla" id="input_Premios">
+                  </form>
+                  <button type="button" id="buttonAgregar">
+                    Agregar
+                  </button>
+                  <button type="button" id="buttonBorrar">
+                    Borrar
+                  </button>
+                  <button type="button" id="buttonAgregar_xtres">
+                    Agregar 3
+                  </button>
+                  <button type="button" id="buttonBorrar_ultimo">
+                    Borrar ultimo
+                  </button>
+
+              </div>            
+            </div>
+            <section class="lista-participantes">
+
+              <p>
+                Queremos agradecer a todos los participantes que se han inscripto 
+                en todas las competiciones de nuestra empresa realizando un sorteo 
+                de un 0 km el dia 26 de octubre. Para esto tomammos a los 10 competidores mas destacados.
+                Ademas tenemos el agrado de mencionarlos en nuestro sitio web como corredores " ejemplares".
+              <p>
+              </p>
+                  <ul>
+                    <li>Los participantes son:</li>
+                    <li>Ramiro Funesmorti </li>
+                    <li>Roman Tristelme </li>
+                    <li>Mara Diaz </li>
+                    <li>Dona Smith </li>
+                    <li>Sheila Haan </li>
+                    <li> Hector Nano </li>
+                    <li> Maria Baigorria</li>
+                    <li>Leguizamon Martina </li>
+                    <li> Juana Silvero </li>
+                    <li> Gabriel Landi </li>
+                </ul>
+                  
+              </section>
+        </article>
+        
+      </main>
+
+      <footer class="integrantes">
+          <ul>
+              <li>Cuello Julian</li>
+          </ul>
+      </footer>
+    </div>
+   
+  </body>
+</html>
